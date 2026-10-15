@@ -1,0 +1,16 @@
+{
+  "name": "convegenius-content-governance",
+  "description": "ConveGenius Content Governance plugins for the glossary team.",
+  "owner": {
+    "name": "ConveGenius Content Governance",
+    "email": "bijit@convegenius.ai"
+  },
+  "plugins": [
+    {
+      "name": "glossary-team",
+      "source": "./plugins/glossary-team",
+      "description": "Take the next NCERT chapter from the shared glossary queue and read its translated pages with Claude Haiku; results go to Google Drive.",
+      "version": "0.3.0"
+    }
+  ]
+}
