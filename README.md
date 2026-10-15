@@ -27,7 +27,7 @@ To see progress: `/glossary-team:glossary-status`.
 
 ## Good to know
 
-- You don't choose chapters. The queue is planned from the records: chapters already done are left out, and the rest are ranked by how many terms the glossary still lacks in that language per page. Pages with nothing new are skipped. A chapter you take is reserved for you for 6 hours.
+- You don't choose chapters. The queue is planned from the records: chapters already done are left out, and the rest are ranked by how many terms the glossary still lacks in that language per page (a known word whose meaning in another language is missing here counts half). Pages with nothing new are skipped. Terms the glossary already has are listed on each page with the senses it holds them in; report one only when the page uses it in a different sense. A chapter you take is reserved for you for 6 hours.
 - The page reading always runs on Claude Haiku, the smallest Claude model. It uses your Claude plan's usage: about 35–60k tokens per page, roughly 0.5–1M for a chapter.
 - If a chapter has problems (missing pages), it goes back to the queue automatically and only the missing pages are redone.
 - Progress by language and subject: the **Coverage** tab of the glossary usage sheet. Every chapter: `chapters.csv` in Glossary_team.

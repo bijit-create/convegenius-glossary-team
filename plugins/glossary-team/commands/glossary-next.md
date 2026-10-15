@@ -48,7 +48,7 @@ If more than 1 page in 10 is still missing, do not write a report. Tell the memb
 
 ## 7. Report
 Get the current time again (step 2) as FINISHED. Write `TEAM/results/<id>/report.json`:
-`{"id": "<id>", "member": "<member>", "model": "claude-haiku", "plugin": "glossary-team 0.3.0", "started_at": "<NOW from step 2>", "finished_at": "<FINISHED>", "pages": <number of pages in unit.json>, "pages_written": <number of pNNN.json files>, "pages_missing": [<page numbers>]}`
+`{"id": "<id>", "member": "<member>", "model": "claude-haiku", "plugin": "glossary-team 0.3.1", "started_at": "<NOW from step 2>", "finished_at": "<FINISHED>", "pages": <number of pages in unit.json>, "pages_written": <number of pNNN.json files>, "pages_missing": [<page numbers>]}`
 Tell the member: "Done: <id>, <pages_written> pages. Results are in Drive; the glossary picks them up from there."
 
 If the member asked for more than one chapter, go back to step 2 for the next one.

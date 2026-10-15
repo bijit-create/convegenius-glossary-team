@@ -10,7 +10,7 @@
       "name": "glossary-team",
       "source": "./plugins/glossary-team",
       "description": "Take the next NCERT chapter from the shared glossary queue and read its translated pages with Claude Haiku; results go to Google Drive.",
-      "version": "0.3.0"
+      "version": "0.3.1"
     }
   ]
 }

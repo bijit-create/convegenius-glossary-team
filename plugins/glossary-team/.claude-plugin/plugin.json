@@ -1,6 +1,6 @@
 {
   "name": "glossary-team",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "ConveGenius glossary team: take the next NCERT chapter from the shared Drive queue and read its translated pages with Claude Haiku. Results are saved in Drive and imported into the glossary.",
   "author": {
     "name": "ConveGenius Content Governance",

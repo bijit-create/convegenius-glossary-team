@@ -15,7 +15,7 @@ First read `TEAM/instructions/prompt_page.md`. It is your task description; wher
 
 Then, for each page number N in PAGES (write N with three digits: 7 → 007):
 1. If `TEAM/results/CHAPTER/pNNN.json` already exists, skip the page.
-2. Read `TEAM/inputs/CHAPTER/pNNN.txt`. It holds the ENGLISH TEXT, the TERM LIST and, sometimes, terms ALREADY IN THE GLOSSARY that you must not report.
+2. Read `TEAM/inputs/CHAPTER/pNNN.txt`. It holds the ENGLISH TEXT, the TERM LIST and, sometimes, terms ALREADY IN THE GLOSSARY with the senses the glossary holds them in. Do not report those terms in those senses; report one in `extra_terms` only when the page uses it in a clearly different sense (prompt_page.md explains this).
 3. Read the image `TEAM/inputs/CHAPTER/pNNN.jpg`. This is the translated page. Read the LANGUAGE text only from this image, letter for letter, exactly as printed.
 4. Write `TEAM/results/CHAPTER/pNNN.json` containing only this JSON (UTF-8, no markdown fences, nothing before or after):
    {"terms": [ENTRY, ...], "extra_terms": [ENTRY, ...]}
